@@ -1,7 +1,7 @@
 # Can't build on Arch linux #1525
 Now is not possible to build darling on Arch Linux [reference](https://github.com/darlinghq/darling/issues/1525)
 ## solution
-Downgrade ffmpeg version and some depencencies to be able to build.
+The problem could be solved by downgrading ffmpeg version and some depencencies to be able to build.
 ```bash
 sudo pacman -U https://archive.archlinux.org/packages/l/libjxl/libjxl-0.9.0-1-x86_64.pkg.tar.zst
 sudo pacman -U https://archive.archlinux.org/packages/l/libplacebo/libplacebo-6.338.1-1-x86_64.pkg.tar.zst
